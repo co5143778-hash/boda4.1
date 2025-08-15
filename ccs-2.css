@@ -4,7 +4,7 @@
     --foreground: 30 20% 15%;
     --primary: 35 65% 45%;
     --primary-foreground: 35 25% 95%;
-    --gold: 42 85% 55%;
+    --gold: 42 85% 60%;
     --gold-light: 42 80% 70%;
     --gold-dark: 42 75% 40%;
     --brown: 35 65% 45%;
@@ -893,9 +893,9 @@ body {
    Theme overrides (Gold)
    ======================= */
 :root {
-  --gold-main-light: #d4a24c;
-  --gold-main-dark: #a67c2d;
-  --text-gold: #a67c2d;
+  --gold-main-light: #e0b764;
+  --gold-main-dark: #b3873b;
+  --text-gold: #b3873b;
   --text-gray: #666666;
 }
 
@@ -1028,8 +1028,8 @@ body {
   height: 22px;
   pointer-events: none;
   background-image:
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23d4a24c' stroke='%23a67c2d' stroke-width='1.5'><path d='M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z'/></svg>"),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23d4a24c' stroke='%23a67c2d' stroke-width='1.5'><path d='M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z'/></svg>");
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e0b764' stroke='%23b3873b' stroke-width='1.5'><path d='M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z'/></svg>"),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23e0b764' stroke='%23b3873b' stroke-width='1.5'><path d='M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z'/></svg>");
   background-repeat: no-repeat, no-repeat;
   background-size: 18px 18px, 18px 18px;
   background-position: calc(50% - 90px) center, calc(50% + 90px) center;
@@ -1577,10 +1577,10 @@ html, body { overflow-x: hidden; }
     left -8px bottom -8px,
     right -8px bottom -8px;
   background-image:
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><rect x='3' y='3' width='10' height='10' fill='none' stroke='%23d4a24c' stroke-width='2' transform='rotate(45 8 8)'/></svg>"),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><rect x='3' y='3' width='10' height='10' fill='none' stroke='%23d4a24c' stroke-width='2' transform='rotate(45 8 8)'/></svg>"),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><rect x='3' y='3' width='10' height='10' fill='none' stroke='%23d4a24c' stroke-width='2' transform='rotate(45 8 8)'/></svg>"),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><rect x='3' y='3' width='10' height='10' fill='none' stroke='%23d4a24c' stroke-width='2' transform='rotate(45 8 8)'/></svg>");
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><rect x='3' y='3' width='10' height='10' fill='none' stroke='%23e0b764' stroke-width='2' transform='rotate(45 8 8)'/></svg>"),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><rect x='3' y='3' width='10' height='10' fill='none' stroke='%23e0b764' stroke-width='2' transform='rotate(45 8 8)'/></svg>"),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><rect x='3' y='3' width='10' height='10' fill='none' stroke='%23e0b764' stroke-width='2' transform='rotate(45 8 8)'/></svg>"),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><rect x='3' y='3' width='10' height='10' fill='none' stroke='%23e0b764' stroke-width='2' transform='rotate(45 8 8)'/></svg>");
 }
 
 @media (max-width: 768px) {
