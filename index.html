@@ -4,7 +4,7 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Rafael & Juana - Invitación de Boda</title>
-     <link rel="stylesheet" href="ccs-2.css?v=infinity-001">
+     <link rel="stylesheet" href="ccs-2.css?v=infinity-002">
      <script src="https://cdn.lordicon.com/lordicon.js"></script>
      <script src="https://animatedicons.co/scripts/embed-animated-icons.js"></script>
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -217,10 +217,27 @@
             <section class="gallery-section section-block">
                 <div class="gallery-container">
                     <div class="infinity-wrapper">
-                        <svg class="infinity-svg" viewBox="0 0 220 64" width="220" height="64" aria-hidden="true">
-                            <path class="infinity-path" d="M 20 32 C 40 0 80 0 100 32 C 120 64 160 64 180 32 C 160 0 120 0 100 32 C 80 64 40 64 20 32" fill="none" pathLength="1" />
-                            <line class="infinity-line left" x1="0" y1="32" x2="20" y2="32" pathLength="1" />
-                            <line class="infinity-line right" x1="200" y1="32" x2="220" y2="32" pathLength="1" />
+                        <svg class="infinity-svg" viewBox="0 0 520 120" width="520" height="120" aria-hidden="true">
+                            <!-- side lines with small ornaments -->
+                            <line class="infinity-line left" x1="0" y1="60" x2="150" y2="60" pathLength="1" />
+                            <circle class="infinity-dot left" cx="150" cy="60" r="3" />
+                            
+                            <!-- infinity symbol with subtle inner glow and outer outline -->
+                            <defs>
+                                <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+                                    <feGaussianBlur stdDeviation="2" result="blur" />
+                                    <feMerge>
+                                        <feMergeNode in="blur" />
+                                        <feMergeNode in="SourceGraphic" />
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            
+                            <path class="infinity-outline" d="M 160 60 C 210 10 260 10 310 60 C 360 110 410 110 460 60 C 410 10 360 10 310 60 C 260 110 210 110 160 60" fill="none" pathLength="1" />
+                            <path class="infinity-path" d="M 160 60 C 210 10 260 10 310 60 C 360 110 410 110 460 60 C 410 10 360 10 310 60 C 260 110 210 110 160 60" fill="none" pathLength="1" filter="url(#softGlow)" />
+
+                            <circle class="infinity-dot right" cx="360" cy="60" r="3" />
+                            <line class="infinity-line right" x1="360" y1="60" x2="520" y2="60" pathLength="1" />
                         </svg>
                     </div>
                     <h2 class="section-title">Retratos de Nuestro Amor</h2>
