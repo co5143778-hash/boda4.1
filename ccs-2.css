@@ -1730,11 +1730,11 @@ html, body { overflow-x: hidden; }
 .infinity-outline,
 .infinity-dot {
 	stroke: var(--text-gold);
-	stroke-width: 2.5;
+	stroke-width: 2;
 	stroke-linecap: round;
-	opacity: 0.95;
+	opacity: 0.9;
 }
-.infinity-outline { stroke-width: 5; opacity: 0.35; }
+.infinity-outline { stroke-width: 4; opacity: 0.3; }
 .infinity-dot { fill: var(--text-gold); stroke-width: 0; }
 
 /* Draw animation using stroke-dashoffset */
@@ -1763,7 +1763,7 @@ html, body { overflow-x: hidden; }
 
 /* Responsive tweak: shrink on small screens */
 @media (max-width: 480px) {
-	.infinity-svg { width: 320px; height: 90px; }
+	.infinity-svg { width: 280px; height: 80px; }
 }
 
 .decorative-line {
