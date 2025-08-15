@@ -1657,7 +1657,7 @@ html, body { overflow-x: hidden; }
   .hero-split { height: auto !important; }
   .hero-left { height: 50vh !important; background-position: center; }
   .hero-left img { object-fit: cover; object-position: center; }
-  .hero-right { height: 60vh !important; }
+  .hero-right { height: 85vh !important; }
 }
 
 .animated-camera lord-icon {
