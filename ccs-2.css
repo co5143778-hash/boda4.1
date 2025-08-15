@@ -602,7 +602,7 @@ body {
 .animated-camera {
     width: 56px;
     height: 56px;
-    margin: 0 auto 2rem;
+    margin: 0 auto 0.75rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
