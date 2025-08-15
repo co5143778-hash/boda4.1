@@ -323,7 +323,7 @@ body {
 .hero-left {
     position: relative;
     /* use right image here with fallback */
-    background-image: url('https://drive.google.com/thumbnail?id=16RcSOb9ltQRUH0BFblEP6k7IFlPfRiq3&sz=w2000');
+    background-image: url('hero-left.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
