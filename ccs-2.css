@@ -1655,7 +1655,7 @@ html, body { overflow-x: hidden; }
 .hero-wrapper { padding-top: 0 !important; padding-bottom: 0 !important; }
 @media (max-width: 768px) {
   .hero-split { height: auto !important; }
-  .hero-left { height: 60vh !important; background-position: center; }
+  .hero-left { height: 50vh !important; background-position: center; }
   .hero-left img { object-fit: cover; object-position: center; }
   .hero-right { height: 60vh !important; }
 }
