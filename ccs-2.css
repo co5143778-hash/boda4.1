@@ -1711,6 +1711,55 @@ html, body { overflow-x: hidden; }
 	.gallery-section .carousel-container { margin: 0 auto 1rem; }
 }
 
+.infinity-wrapper {
+	position: relative;
+	margin: 0 auto 0.5rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.infinity-svg {
+	display: block;
+	overflow: visible;
+}
+
+.infinity-path,
+.infinity-line {
+	stroke: var(--text-gold);
+	stroke-width: 2.5;
+	stroke-linecap: round;
+	opacity: 0.95;
+}
+
+/* Draw animation using stroke-dashoffset */
+.infinity-path,
+.infinity-line.left,
+.infinity-line.right {
+	stroke-dasharray: 1;
+	stroke-dashoffset: 1;
+	animation: drawInfinity 2.4s ease-in-out forwards;
+}
+
+/* Stagger side lines to sync with the loop drawing */
+.infinity-line.left { animation-delay: 0.0s; }
+.infinity-path { animation-delay: 0.15s; }
+.infinity-line.right { animation-delay: 0.3s; }
+
+@keyframes drawInfinity {
+	0% { stroke-dashoffset: 1; }
+	100% { stroke-dashoffset: 0; }
+}
+
+/* Optional subtle glow */
+.infinity-path { filter: drop-shadow(0 2px 6px rgba(0,0,0,0.18)); }
+
+/* Responsive tweak: shrink on small screens */
+@media (max-width: 480px) {
+	.infinity-svg { width: 180px; height: 52px; }
+}
+
 .decorative-line {
 	position: relative;
 	height: 22px;
